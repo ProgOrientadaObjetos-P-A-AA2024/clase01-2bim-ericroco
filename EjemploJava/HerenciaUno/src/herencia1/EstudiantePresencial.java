@@ -45,14 +45,25 @@ public class EstudiantePresencial extends Estudiante {
     @Override
     public String toString() {
         String cadena = String.format("Nombres: %s\n"
+                + "Apellidos: %s\n"
+                + "Identificación: %s\n"
+                + "Edad: %d\n"
+                + "Número de crédito: %d\n"
+                + "Costo Crédito: %.1f\n"
                 + "Costo matrícula: %.1f\n",
                 obtenerNombresEstudiante(),
+                obtenerApellidoEstudiante(),
+                obtenerIdentificacionEstudiante(),
+                obtenerEdadEstudiante(),
+                obtenerNumeroCreditos(),
+                obtenerCostoCredito(),
                 obtenerMatriculaPresencial());
+
         /*
         Gracias a la super clase, podemos llamar metodos de la clase heredada
-        esto nos ayuda a tener un codigo mas compacto y ordenado a la vista.
-        */
-        return cadena;
+        esto nos ayuda a tener un codigo mas compacto y ordenado a la vista.    
+         */
+        return nombresEstudiante;
     }
 
 }

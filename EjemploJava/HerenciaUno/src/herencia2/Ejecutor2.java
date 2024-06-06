@@ -27,6 +27,7 @@ public class Ejecutor2 {
         String identificacion = entrada.nextLine();
         System.out.println("Ingrese edad");
         int edad = entrada.nextInt();
+        
         System.out.println("Ingrese número de asignaturas");
         int asignaturas = entrada.nextInt();
         System.out.println("Ingrese costo asignatura");
