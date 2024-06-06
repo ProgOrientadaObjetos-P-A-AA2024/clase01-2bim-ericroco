@@ -1,4 +1,4 @@
-
+    
 package herencia1;
 
 public class Estudiante {
